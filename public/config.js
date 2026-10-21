@@ -15,7 +15,7 @@ window.CTREE_CONFIG = {
   form: {
     // 견적 문의를 받을 주소. Formspree 등의 접수 주소를 넣으면 폼이 해당 주소로 전송됩니다.
     // 예: "https://formspree.io/f/xxxxxxxx"
-    endpoint: "",
+    endpoint: "https://formspree.io/f/mzedladw",
     maxFiles: 5,
     maxFileMB: 5
   }
