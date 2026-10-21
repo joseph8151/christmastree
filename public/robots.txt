@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://christmastree.yorkboy.workers.dev/sitemap.xml
