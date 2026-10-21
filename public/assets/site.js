@@ -196,7 +196,7 @@
   /* 6) 사업자 정보 (config.js 에 값이 있을 때만 표시) */
   var co = CFG.company || {};
   var rows = [
-    ["대표", co.representative], ["사업자등록번호", co.businessNo], ["주소", co.address],
+    ["상호", co.legalName], ["대표", co.representative], ["사업자등록번호", co.businessNo], ["주소", co.address],
     ["전화", co.phone, "tel:" + String(co.phone || "").replace(/[^0-9+]/g, "")],
     ["이메일", co.email, "mailto:" + co.email]
   ].filter(function (r) { return r[1]; });
