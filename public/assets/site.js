@@ -92,6 +92,7 @@
   /* 4) 포트폴리오 갤러리 + 필터 */
   var gallery = $("#gallery"), filters = $("#filters");
   var current = "ALL", shown = [], firstRender = true;
+  var hadStatic = gallery.children.length > 0; /* 검색 로봇용으로 미리 그려 둔 목록이 있으면 등장 효과를 건너뜁니다 */
 
   function renderFilters() {
     var counts = { ALL: WORKS.length };
@@ -157,7 +158,7 @@
       if (w.note) cap.appendChild(el("span", { "class": "note" }, w.note));
       fig.appendChild(btn); fig.appendChild(cap);
       gallery.appendChild(fig);
-      if (firstRender) observe(fig); else fig.classList.add("in");
+      if (firstRender && !hadStatic) observe(fig); else fig.classList.add("in");
     });
     firstRender = false;
   }

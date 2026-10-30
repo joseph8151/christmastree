@@ -23,6 +23,12 @@ public/
 - **히어로·섹션 이미지 교체**: `portfolio.js` 의 `CTREE_SLOTS` 에서 이미지 번호만 바꿉니다.
 - **실제 시공 사진 표기**: AI 생성 이미지는 `kind: "concept"`, 실제 시공 사진만 `kind: "built"` 로 둡니다.
 
+## 검색 노출(네이버) 관련
+
+- 포트폴리오를 바꾸면 `node scripts/prerender.mjs` 를 한 번 실행하세요. 검색 로봇이 읽는 HTML 목록이 갱신됩니다.
+- 네이버 서치어드바이저에서 받은 소유확인 값은 `public/index.html` 상단의 주석 처리된 `naver-site-verification` 태그에 넣고 주석을 풀어 주세요.
+- 도메인이 바뀌면 `index.html`(canonical, og:url, 구조화 데이터), `sitemap.xml`, `robots.txt` 의 주소를 함께 바꿉니다.
+
 ## 로컬 확인
 
 ```
