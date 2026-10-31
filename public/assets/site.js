@@ -21,14 +21,12 @@
   function srcThumb(w) { return "/images/ctree-portfolio-" + w.id + "-640.webp"; }
   function altText(w) { return w.alt || (w.title + ", " + w.space + "에 세운 대형 크리스마스트리 (" + (KIND[w.kind] || "") + " 이미지)"); }
   function makeImg(w, sizes, eager) {
-    var img = el("img", {
-      src: srcThumb(w),
-      srcset: srcThumb(w) + " 640w, " + srcFull(w) + " " + (w.fullWidth || (w.o === "p" ? 784 : 1168)) + "w",
-      sizes: sizes || "100vw",
-      alt: altText(w),
-      decoding: "async"
-    });
+    /* sizes/srcset 을 먼저 지정한 뒤 src 를 마지막에 넣어야 브라우저가 작은 대체 이미지를 불필요하게 받지 않습니다. */
+    var img = el("img", { alt: altText(w), decoding: "async" });
     if (eager) { img.setAttribute("fetchpriority", "high"); } else { img.setAttribute("loading", "lazy"); }
+    img.setAttribute("sizes", sizes || "100vw");
+    img.setAttribute("srcset", srcThumb(w) + " 640w, " + srcFull(w) + " " + (w.fullWidth || (w.o === "p" ? 784 : 1168)) + "w");
+    img.setAttribute("src", srcThumb(w));
     return img;
   }
 

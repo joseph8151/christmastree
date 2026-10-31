@@ -23,11 +23,12 @@ public/
 - **히어로·섹션 이미지 교체**: `portfolio.js` 의 `CTREE_SLOTS` 에서 이미지 번호만 바꿉니다.
 - **실제 시공 사진 표기**: AI 생성 이미지는 `kind: "concept"`, 실제 시공 사진만 `kind: "built"` 로 둡니다.
 
-## 검색 노출(네이버) 관련
+## 검색 노출(구글·네이버) 관련
 
-- 포트폴리오를 바꾸면 `node scripts/prerender.mjs` 를 한 번 실행하세요. 검색 로봇이 읽는 HTML 목록이 갱신됩니다.
-- 네이버 서치어드바이저에서 받은 소유확인 값은 `public/index.html` 상단의 주석 처리된 `naver-site-verification` 태그에 넣고 주석을 풀어 주세요.
-- 도메인이 바뀌면 `index.html`(canonical, og:url, 구조화 데이터), `sitemap.xml`, `robots.txt` 의 주소를 함께 바꿉니다.
+- 포트폴리오를 바꾸거나 히어로 이미지(`CTREE_SLOTS.hero`)를 바꾼 뒤에는 `node scripts/prerender.mjs` 를 한 번 실행하세요. 검색 로봇용 HTML 목록, 첫 화면 이미지 선로딩 태그, `sitemap.xml`(이미지 포함)이 함께 갱신됩니다.
+- 소유확인 태그는 `public/index.html` 상단에 주석 처리되어 있습니다. 네이버 서치어드바이저, 구글 서치 콘솔에서 받은 값을 넣고 주석을 풀어 주세요.
+- 도메인이 바뀌면 `index.html`의 canonical, og:url, twitter:image, 구조화 데이터(JSON-LD)와 `robots.txt` 의 주소를 바꾸고 스크립트를 다시 실행하세요(sitemap 은 canonical 을 따라갑니다).
+- 구조화 데이터에는 사업자등록증으로 확인된 정보(상호, 주소, 전화, 이메일)만 넣었습니다. 영업시간, 평점, 수상 내역 같은 확인되지 않은 정보는 넣지 마세요.
 
 ## 로컬 확인
 

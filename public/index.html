@@ -10,9 +10,15 @@
 <!-- 네이버 서치어드바이저 사이트 소유확인 태그: 발급받은 값으로 아래 줄의 주석을 풀고 content 를 교체하세요.
 <meta name="naver-site-verification" content="여기에_발급받은_인증값">
 -->
+<!-- 구글 서치 콘솔 소유확인 태그(HTML 태그 방식): 발급받은 값으로 주석을 풀고 content 를 교체하세요.
+<meta name="google-site-verification" content="여기에_발급받은_인증값">
+-->
 <meta name="theme-color" content="#F8F2E2">
 <link rel="canonical" href="https://christmastree.yorkboy.workers.dev/">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ko_KR">
@@ -25,7 +31,13 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="아치 창이 이어지는 밝은 온실형 홀에 세워진 대형 크리스마스트리 연출 콘셉트 이미지">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="C Tree | 크리스마스트리 제작·시즌 데코레이션">
+<meta name="twitter:description" content="호텔·백화점·기업·관공서·야외 공간의 대형 크리스마스트리 제작과 설치, 크리스마스 시즌 데코레이션, 트리 렌탈.">
+<meta name="twitter:image" content="https://christmastree.yorkboy.workers.dev/assets/og-image.jpg">
 
+<!-- prerender:preload:start -->
+<link rel="preload" as="image" href="/images/ctree-portfolio-30-640.webp" imagesrcset="/images/ctree-portfolio-30-640.webp 640w, /images/ctree-portfolio-30.webp 1168w" imagesizes="(max-width: 960px) 100vw, 58vw" fetchpriority="high">
+<!-- prerender:preload:end -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -38,15 +50,40 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Organization", "@id": "https://christmastree.yorkboy.workers.dev/#org", "name": "C Tree",
-      "alternateName": "C Tree Christmas Decoration & Spatial Design",
-      "url": "https://christmastree.yorkboy.workers.dev/",
+    {
+      "@type": ["Organization", "ProfessionalService"],
+      "@id": "https://christmastree.yorkboy.workers.dev/#org",
+      "name": "C Tree",
+      "alternateName": ["C Tree Christmas Decoration & Spatial Design", "체르토 드라이브"],
       "legalName": "체르토 드라이브",
+      "url": "https://christmastree.yorkboy.workers.dev/",
+      "logo": { "@type": "ImageObject", "url": "https://christmastree.yorkboy.workers.dev/assets/logo-512.png", "width": 512, "height": 512 },
+      "image": "https://christmastree.yorkboy.workers.dev/assets/og-image.jpg",
       "email": "certo@certo.kr",
       "telephone": "+82-10-7748-4644",
       "address": { "@type": "PostalAddress", "streetAddress": "강남대로8길 39-26, 2층 A9호", "addressLocality": "서초구", "addressRegion": "서울특별시", "addressCountry": "KR" },
-      "description": "호텔, 백화점, 기업, 공공기관과 야외 공간을 위한 크리스마스트리 제작 및 시즌 데코레이션 디자인 스튜디오" },
-    { "@type": "WebSite", "name": "C Tree", "url": "https://christmastree.yorkboy.workers.dev/", "inLanguage": "ko-KR", "publisher": { "@id": "https://christmastree.yorkboy.workers.dev/#org" } }
+      "contactPoint": { "@type": "ContactPoint", "contactType": "customer service", "telephone": "+82-10-7748-4644", "email": "certo@certo.kr", "availableLanguage": "ko" },
+      "description": "호텔, 백화점, 기업, 공공기관과 야외 공간을 위한 크리스마스트리 제작, 대형 트리 설치, 크리스마스 시즌 데코레이션을 제안하는 공간 디자인 스튜디오",
+      "knowsAbout": ["크리스마스트리 제작", "대형 크리스마스트리 설치", "크리스마스 시즌 데코레이션", "크리스마스트리 렌탈", "크리스마스 조형물 제작", "크리스마스 포토존 제작"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://christmastree.yorkboy.workers.dev/#website",
+      "name": "C Tree",
+      "url": "https://christmastree.yorkboy.workers.dev/",
+      "inLanguage": "ko-KR",
+      "publisher": { "@id": "https://christmastree.yorkboy.workers.dev/#org" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://christmastree.yorkboy.workers.dev/#webpage",
+      "url": "https://christmastree.yorkboy.workers.dev/",
+      "name": "C Tree | 크리스마스트리 제작·대형 트리 설치·시즌 데코레이션",
+      "isPartOf": { "@id": "https://christmastree.yorkboy.workers.dev/#website" },
+      "about": { "@id": "https://christmastree.yorkboy.workers.dev/#org" },
+      "primaryImageOfPage": { "@type": "ImageObject", "url": "https://christmastree.yorkboy.workers.dev/assets/og-image.jpg", "width": 1200, "height": 630 },
+      "inLanguage": "ko-KR"
+    }
   ]
 }
 </script>

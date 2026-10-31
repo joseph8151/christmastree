@@ -1,8 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://christmastree.yorkboy.workers.dev/</loc>
+    <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-08.webp</image:loc>
+      <image:title>순천만의 노을</image:title>
+      <image:caption>순천만 풍경 모티프 · 갈대밭과 노을 풍경에 어울리는 야외 데크 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-02.webp</image:loc>
+      <image:title>그랜드 계단홀</image:title>
+      <image:caption>호텔 계단홀 · 샹들리에 아래 대리석 계단과 이어지는 수직 구성의 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-03.webp</image:loc>
+      <image:title>루프톱의 밤</image:title>
+      <image:caption>뉴욕풍 도시 루프톱 · 스카이라인을 배경으로 한 야간 테라스 연출</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-12.webp</image:loc>
+      <image:title>아트리움 센터피스</image:title>
+      <image:caption>백화점 아트리움 · 유리 천장과 층고를 살려 세운 대형 중앙 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-16.webp</image:loc>
+      <image:title>궁정 앞 광장</image:title>
+      <image:caption>대형 야외 광장 · 고전 건축 파사드 앞에 스타 토퍼로 마무리한 대형 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-09.webp</image:loc>
+      <image:title>역사 광장의 트리</image:title>
+      <image:caption>도시 광장 · 고전 건축에 둘러싸인 광장 한가운데의 대형 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-10.webp</image:loc>
+      <image:title>블루 아워 불러바드</image:title>
+      <image:caption>도시 거리 · 해 질 녘 젖은 보도에 조명이 비치는 거리 연출</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-22.webp</image:loc>
+      <image:title>바다 앞 테라스</image:title>
+      <image:caption>해안 리조트 · 바다와 암석 정원을 배경으로 리본으로 마무리한 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-21.webp</image:loc>
+      <image:title>미니멀 라운지</image:title>
+      <image:caption>기업 로비 라운지 · 밝은 석재와 큰 창에 맞춰 장식을 절제한 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-07.webp</image:loc>
+      <image:title>마블 볼룸</image:title>
+      <image:caption>호텔 볼룸 · 아치 창과 대리석 바닥, 크림 리본의 조화</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-17.webp</image:loc>
+      <image:title>만의 저녁 조명</image:title>
+      <image:caption>해안 야간 조명 · 해 질 녘 물가에서 빛나는 조명 트리와 화단 조명</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-19.webp</image:loc>
+      <image:title>스카이라인 로비</image:title>
+      <image:caption>기업 로비 · 도시 전망 창 앞에 한 쌍의 트리로 만든 대칭 구도</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-15.webp</image:loc>
+      <image:title>겨울 정원의 온실</image:title>
+      <image:caption>정원 · 유리 온실을 배경으로 잔디 원 위에 세운 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-13.webp</image:loc>
+      <image:title>갈대밭의 고요</image:title>
+      <image:caption>습지 정원 · 장식을 덜어낸 미니멀한 자연 속 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-29.webp</image:loc>
+      <image:title>카페의 창가</image:title>
+      <image:caption>카페 · 아치 창가 좌석 옆에 놓은 아담한 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-14.webp</image:loc>
+      <image:title>세 그루의 테라스</image:title>
+      <image:caption>리조트 테라스 · 크기가 다른 세 그루로 만든 시선의 리듬</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-05.webp</image:loc>
+      <image:title>알파인 라운지</image:title>
+      <image:caption>산악 리조트 라운지 · 설산 전망과 벽난로가 있는 라운지의 따뜻한 연출</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-04.webp</image:loc>
+      <image:title>클래식 서재</image:title>
+      <image:caption>부티크 호텔 라운지 · 짙은 붉은 리본으로 클래식한 공간에 깊이를 더한 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-24.webp</image:loc>
+      <image:title>곡선 벽면의 두 그루</image:title>
+      <image:caption>부티크 쇼룸 · 곡선 벽과 단상에 맞춘 두 그루 구성</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-18.webp</image:loc>
+      <image:title>캠퍼스 플라자</image:title>
+      <image:caption>기업 사옥 광장 · 사옥 앞 광장에서 브랜드의 얼굴이 되는 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-26.webp</image:loc>
+      <image:title>마켓 광장의 겨울</image:title>
+      <image:caption>크리스마스 마켓 광장 · 마켓 부스와 중앙 트리가 이어지는 광장 연출</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-06.webp</image:loc>
+      <image:title>애비뉴 코너</image:title>
+      <image:caption>뉴욕풍 도시 대로 · 석조 건물이 이어지는 거리 모퉁이에 놓은 대형 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-11.webp</image:loc>
+      <image:title>눈 내린 전망대</image:title>
+      <image:caption>도시 전망 테라스 · 눈 덮인 전망 테라스에 붉은 리본으로 포인트를 준 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-25.webp</image:loc>
+      <image:title>정원의 밤</image:title>
+      <image:caption>정형 정원 · 정원 조형과 조명 오브제로 완성한 야간 연출</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-27.webp</image:loc>
+      <image:title>단지 중정의 저녁</image:title>
+      <image:caption>주거 단지 중정 · 아파트 단지 중정에 놓은 따뜻한 조명 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-20.webp</image:loc>
+      <image:title>갤러리 홀</image:title>
+      <image:caption>브랜드 쇼룸 · 유리 볼트 천장과 가랜드, 선물 오브제를 엮은 연출</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-28.webp</image:loc>
+      <image:title>오너먼트 디테일</image:title>
+      <image:caption>장식 디테일 · 리본과 오너먼트의 질감과 색 조합</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-23.webp</image:loc>
+      <image:title>화이트 아키텍처</image:title>
+      <image:caption>문화시설 진입부 · 계단과 화단이 이어지는 흰 건축 입구의 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-01.webp</image:loc>
+      <image:title>아이보리 로비</image:title>
+      <image:caption>호텔 로비 · 석재 마감과 통창의 자연광에 맞춘 크림 리본 트리</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://christmastree.yorkboy.workers.dev/images/ctree-portfolio-30.webp</image:loc>
+      <image:title>온실 홀의 시그니처</image:title>
+      <image:caption>유리 온실형 홀 · 밝은 자연광이 드는 아치 창 홀의 C Tree 대표 연출</image:caption>
+    </image:image>
   </url>
 </urlset>
