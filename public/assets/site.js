@@ -199,13 +199,18 @@
     ["전화", co.phone, "tel:" + String(co.phone || "").replace(/[^0-9+]/g, "")],
     ["이메일", co.email, "mailto:" + co.email]
   ].filter(function (r) { return r[1]; });
+  /* 같은 내용이 scripts/prerender.mjs 로 HTML 에도 들어 있습니다(검색·AI 크롤러용). 여기서는 config.js 의 최신 값으로 다시 그립니다. */
   var footCo = $("#foot-co");
+  footCo.textContent = "";
+  footCo.appendChild(el("b", {}, "C Tree"));
+  footCo.appendChild(el("span", {}, "Christmas Decoration & Spatial Design"));
   rows.forEach(function (r) {
     var line = el("span", {}, r[0] + " ");
     if (r[2]) { var a = el("a", { href: r[2] }, r[1]); line.appendChild(a); } else { line.appendChild(document.createTextNode(r[1])); }
     footCo.appendChild(line);
   });
   var info = $("#contact-info");
+  info.textContent = "";
   rows.filter(function (r) { return r[0] === "전화" || r[0] === "이메일" || r[0] === "주소"; }).forEach(function (r) {
     var d = el("div"); d.appendChild(el("dt", {}, r[0]));
     var dd = el("dd"); if (r[2]) dd.appendChild(el("a", { href: r[2] }, r[1])); else dd.textContent = r[1];

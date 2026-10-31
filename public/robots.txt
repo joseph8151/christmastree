@@ -1,7 +1,42 @@
+# 검색엔진과 AI 검색(ChatGPT, Perplexity, Claude 등)의 접근을 모두 허용합니다.
+# 특정 크롤러를 막으려면 해당 User-agent 의 Allow 를 Disallow: / 로 바꾸세요.
+
 User-agent: *
 Allow: /
 
 User-agent: Yeti
+Allow: /
+
+# ChatGPT 검색 및 사용자가 요청한 페이지 열람
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# AI 모델 학습용(막고 싶다면 Disallow 로 변경)
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://christmastree.yorkboy.workers.dev/sitemap.xml

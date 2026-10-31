@@ -27,6 +27,8 @@ public/
 
 - 포트폴리오를 바꾸거나 히어로 이미지(`CTREE_SLOTS.hero`)를 바꾼 뒤에는 `node scripts/prerender.mjs` 를 한 번 실행하세요. 검색 로봇용 HTML 목록, 첫 화면 이미지 선로딩 태그, `sitemap.xml`(이미지 포함)이 함께 갱신됩니다.
 - 소유확인 태그는 `public/index.html` 상단에 주석 처리되어 있습니다. 네이버 서치어드바이저, 구글 서치 콘솔에서 받은 값을 넣고 주석을 풀어 주세요.
+- **AI 검색(ChatGPT 등) 대응**: 같은 스크립트가 회사 정보 표·푸터·문의 정보(HTML), FAQ·서비스 구조화 데이터(JSON-LD), `llms.txt`, `llms-full.txt` 를 만듭니다. 서비스 문구나 FAQ, `config.js` 의 사업자 정보를 고친 뒤에는 반드시 스크립트를 다시 실행하세요(그렇지 않으면 크롤러가 보는 내용이 이전 값으로 남습니다).
+- `robots.txt` 는 검색엔진과 AI 크롤러(OAI-SearchBot, GPTBot, PerplexityBot, ClaudeBot 등)를 모두 허용합니다. 특정 크롤러를 막으려면 해당 항목을 `Disallow: /` 로 바꾸세요.
 - 도메인이 바뀌면 `index.html`의 canonical, og:url, twitter:image, 구조화 데이터(JSON-LD)와 `robots.txt` 의 주소를 바꾸고 스크립트를 다시 실행하세요(sitemap 은 canonical 을 따라갑니다).
 - 구조화 데이터에는 사업자등록증으로 확인된 정보(상호, 주소, 전화, 이메일)만 넣었습니다. 영업시간, 평점, 수상 내역 같은 확인되지 않은 정보는 넣지 마세요.
 
